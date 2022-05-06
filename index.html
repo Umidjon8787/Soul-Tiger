@@ -488,13 +488,16 @@
                             <div class="col-12 form-group"><input type="text" class="form-control"
                                     placeholder="Ismingiz"></div>
                             <div class="col-12 form-group"><input type="number" class="form-control"
-                                    placeholder="Telefon raqamingiz"></div>
+                                    placeholder="Telefon raqamingiz" id="phone"></div>
                             <div class="col-12 form-group">
-                                <textarea name="" class="form-control" placeholder="Xabar" id="" cols="57" rows="10"></textarea>
+                                <textarea name="" class="form-control" id="message" placeholder="Xabar" cols="57" rows="10"></textarea>
                             </div>
                             
-                            <div class="col-12 form-group"><button type="submit" class="vs-btn style4" style="background-color: #6FE82B;">Xabarni yuborish</button>
+                            <div class="col-12 form-group"><button onclick="sendEmail()" type="submit" class="vs-btn style4" style="background-color: #6FE82B;">Xabarni yuborish</button>
                             </div>
+
+                            <div id="send" style="color: #6FE82B; display: none;"> Xabar muvofaqqiyatli yuborildi</div>
+                            <div id="error" style="color: red;display: none;" > Xabar yuborishda xatolik</div>
                         </div>
                     </form>
                 </div>
