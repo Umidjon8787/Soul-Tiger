@@ -568,6 +568,7 @@ progress {
   .container-xl {
     max-width: 1140px;
   }
+
 }
 @media (min-width: 1400px) {
   .container,
@@ -1707,6 +1708,8 @@ progress {
   .gy-xl-5 {
     --bs-gutter-y: 3rem;
   }
+
+  
 }
 @media (min-width: 1400px) {
   .col-xxl {

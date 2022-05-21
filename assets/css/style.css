@@ -4761,7 +4761,7 @@ a.text-theme:hover,
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding-right: 40px
+    
 }
 
 .header-buttons>a {
