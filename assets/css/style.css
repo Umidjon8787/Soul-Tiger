@@ -3835,7 +3835,8 @@ a.text-theme:hover,
 }
 
 .footer-widget {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    
 }
 
 .footer-widget,
@@ -3843,7 +3844,8 @@ a.text-theme:hover,
     padding: 0;
     border: none;
     padding-bottom: 0;
-    background-color: transparent
+    background-color: transparent;
+    /* text-align: center; */
 }
 
 .footer-widget .widget_title {
@@ -3857,7 +3859,8 @@ a.text-theme:hover,
     font-size: 26px;
     margin-top: -0.10em;
     margin-bottom: 30px;
-    font-size: 18px
+    font-size: 18px;
+    /* text-align: center; */
 }
 
 .footer-widget .widget_title:before {

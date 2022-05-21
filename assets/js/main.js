@@ -333,3 +333,24 @@
         g()
     }))
 }(jQuery);
+
+
+function sendMessage() {
+    console.log("Salom");
+    var tempParams = {
+        name: document.getElementById("name").value,
+        phone: document.getElementById("phone").value,
+        message: document.getElementById("message").value
+    }
+
+    emailjs.send("service_npdzy95", "template_ei9v9kp", tempParams)
+        .then(
+            () => {
+                document.getElementById("send").style.display = "block"
+            }
+        )
+        .catch(() => {
+            document.getElementById("error").style.display = "block"
+
+        })
+}
