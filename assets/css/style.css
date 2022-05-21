@@ -3845,7 +3845,7 @@ a.text-theme:hover,
     border: none;
     padding-bottom: 0;
     background-color: transparent;
-   
+    
 }
 
 .footer-widget .widget_title {
@@ -14436,7 +14436,8 @@ span.select2-selection.select2-selection--single:focus {
     line-height: 42px;
     font-weight: 400;
     color: var(--title-color);
-    margin: -0.27em 0 17px 0
+    margin: -0.27em 0 17px 0;
+    
 }
 
 .testi_card_text--md u {
